@@ -11,7 +11,8 @@ namespace WebApplication4.data
     {
         public AppDbContent(DbContextOptions<AppDbContent> options) : base(options) { }
         public DbSet<moto> Moto { get; set; }
-        public DbSet<category> Category { get; set; }
+        public DbSet<Category> Category { get; set; }
+        public DbSet<ShopCartItem> ShopCartItem { get; set; }
     }
     
     

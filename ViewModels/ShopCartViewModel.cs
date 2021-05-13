@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using WebApplication4.data.models;
 
-namespace WebApplication4.data.interfaces
+namespace WebApplication4.ViewModels
 {
-    public interface IMotosCategory
+    public class ShopCartViewModel
     {
-        IEnumerable<Category> AllCategories { get; }
+        public ShopCart shopCart { get; set; }
+
     }
 }

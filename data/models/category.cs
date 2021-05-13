@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WebApplication4.data.models
 {
-    public class category
+    public class Category
     {
         public int id { set; get; }
         public string categoryName { set; get; } //имя категории

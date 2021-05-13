@@ -10,14 +10,14 @@ namespace WebApplication4.data.Mocks
 {
     public class MockCategory : IMotosCategory
     {
-        public IEnumerable<category> AllCategories
+        public IEnumerable<Category> AllCategories
         {
             get
             {
-                return new List<category>
+                return new List<Category>
                 {
-                    new category {categoryName = "ЭлектроМотоциклы", desc = "Современный вид транспорта"},
-                    new category {categoryName = "Классические мотоциклы", desc = "Мотоциклы с двигателем внутреннего сгорания"}
+                    new Category {categoryName = "ЭлектроМотоциклы", desc = "Современный вид транспорта"},
+                    new Category {categoryName = "Классические мотоциклы", desc = "Мотоциклы с двигателем внутреннего сгорания"}
                 };
             }
                 

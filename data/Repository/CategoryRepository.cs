@@ -15,6 +15,6 @@ namespace WebApplication4.data.Repository
         {
             this.appDbContent = appDbContent;
         }
-        public IEnumerable<category> AllCategories => appDbContent.Category;
+        public IEnumerable<Category> AllCategories => appDbContent.Category;
     }
 }

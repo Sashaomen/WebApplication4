@@ -17,6 +17,6 @@ namespace WebApplication4.data.models
         public bool isFavorite { set; get; } //отображдение на главной странице в блоке лучшие товары
         public bool available { set; get; }
         public int categoryID { set; get; } 
-        public virtual category Category { set; get; } //к какой категории относится товар
+        public virtual Category Category { set; get; } //к какой категории относится товар
     }
 }
